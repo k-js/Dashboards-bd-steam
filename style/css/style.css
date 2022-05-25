@@ -7,31 +7,29 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-header {
+.header-menu {
 	background: #1b2838;
 	padding: 20px 0;
-}
-
-.caixa-principal {
 	position: relative;
-	width: 940px;
-	margin: 0 auto;
+	width: 100%;
 }
 
 h1 img {
     height: 65px;
     margin-top: 10px;
+	margin-left: 200px;
 }
 
 .menu {
 	position: absolute;
-	top: 30px;
-	right: 0;
+	top: 50px;
+	right: 170px;
+	margin-bottom: 70px;
 }
 
 .menu li {
 	display: inline;
-	margin: 0 0 0 10px;
+	margin: 0 0px 0 15px;
 }
 
 .menu a {
