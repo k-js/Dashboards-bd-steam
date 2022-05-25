@@ -1,4 +1,4 @@
-<h1 align="center"> 🚀 PROJETO DE ENCERRAMENTO DO MÓDULO 3:
+<h1 align="center">  PROJETO DE ENCERRAMENTO DO MÓDULO 3:
 VISUALIZAÇÃO DE DADOS</h1>
 
 <h2 align="center"> De que adiantam os dados se não podemos vê-los? <h2>
