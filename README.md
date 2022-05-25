@@ -12,7 +12,7 @@ VISUALIZAÇÃO DE DADOS</h1>
 
 ## 📝 Metodologias ágeis
 - ``KANBAN``
-<img src="style/imagens/imgTrello.png" width="900px;" height="200px;"alt="imagem do trello"/>
+<img src="style/imagens/imgTrello.png" width="900px;" alt="imagem do trello"/>
 
 ## ✨ Contribuidores 
 
