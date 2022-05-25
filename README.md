@@ -12,9 +12,10 @@ VISUALIZAÇÃO DE DADOS</h1>
 
 ## 📝 Metodologias ágeis
 - ``KANBAN``
-<img src="style/imagens/imgTrello.png" width="300px;" alt="imagem do trello"/>
+<img src="style/imagens/imgTrello.png" width="900px;" alt="imagem do trello"/>
 
 ## ✨ Contribuidores 
+
 <table>
   <tr>
 <td align="center"><a href="https://github.com/k-js"><img src="style/imagens/Keu.jpg" width="100px;" alt=""/><br /><sub><b>k-js</b></sub></a><br /><a href="contribuiçes" title="Documentation">📖</a></td><td align="center"><a href="https://github.com/anafedechem"><img src="https://avatars.githubusercontent.com/u/99834350?v=4" width="100px;" alt=""/><br /><sub><b>Ana</b></sub></a><br /><a href="contribuiçes" title="Documentation">💻</a></td><td align="center"><a href="https://github.com/joaokx"><img src="https://avatars.githubusercontent.com/u/84516017?v=4" width="100px;" alt=""/><br /><sub><b>João</b></sub></a><br /><a href="contribuiçes" title="Documentation">🌍</a></td>
