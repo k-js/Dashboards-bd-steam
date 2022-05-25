@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #1b2838;
+	padding: 20px 0;
+}
+
+.caixa-principal {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+h1 img {
+    height: 65px;
+    margin-top: 10px;
+}
+
+.menu {
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+
+.menu li {
+	display: inline;
+	margin: 0 0 0 10px;
+}
+
+.menu a {
+	text-transform: uppercase;
+	color: #c5c3c0;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	color: #323ee6;
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	background: #1b2838;
+	padding: 20px 0;
+    margin-top: 20px;
+    color: #c5c3c0;
+}
