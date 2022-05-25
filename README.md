@@ -10,7 +10,6 @@ VISUALIZAÇÃO DE DADOS</h1>
 - ``CSS``
 - ``MYSQL``
 
-## Contribuidores ✨
-
+## ✨ Contribuidores 
 <td align="center"><a href="https://github.com/k-js"><img src="style/imagens/Keu.jpg" width="100px;" alt=""/><br /><sub><b>mwaitzman</b></sub></a><br /><a href="contribuiçes" title="Documentation">📖</a></td>
   </tr>
