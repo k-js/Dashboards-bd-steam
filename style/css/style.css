@@ -140,27 +140,49 @@ footer {
     margin: 0px;
     padding: 0px;
 }
-#imagem{
+
+#contatos{
     display: flex;
-    width: 100vw;
-    height: 100%;
+    width: 100%;
+}
+#informaçõesDosDesenvolvedores{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.tituloContatos{
+    display: flex;
+    width: 100%;
+    margin: 60px;
+    justify-content: center;
+
+}
+
+#blocosDeContato{
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+}
+#usuarios{
+    display: flex;
+    flex-direction:column; 
+    text-align: center;
+    font-size: medium;
 }
 #imagemContato{
     display: flex;
-    border-radius: 50%;
-    height: 250px; 
-    flex-direction: column; 
+    border-radius: 48%;
+    height: 200px; 
 }
 #links{
     display: flex;
     width: 100%;
     flex-direction: row;
-    justify-content: center;
 }
 ion-icon{
     display: flex;
-    height: 50px
+    height: 50px;
 }
 
 
