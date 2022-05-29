@@ -135,4 +135,32 @@ footer {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* PARTE - CONTATOS */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#imagem{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    flex-direction: row;
+}
+#imagemContato{
+    display: flex;
+    border-radius: 50%;
+    height: 250px; 
+    flex-direction: column; 
+}
+#links{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+ion-icon{
+    display: flex;
+    height: 50px
+}
+
 
