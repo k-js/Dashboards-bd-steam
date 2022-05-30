@@ -1,97 +1,264 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="style/imagens/logo_steam.svg" type="image/x-icon">
-    <link rel="stylesheet" href="style/css/style.css">
-    
-    <title>STEAM - DADOS DE PESQUISA </title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="style/imagens/logo_steam.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style/css/style.css">
+  <script src="jquery-3.6.0.min.js"></script>
+
+
+  <title>STEAM - DADOS DE PESQUISA </title>
 </head>
+
 <body>
-    <header class="header-menu">
-            <h1 class="titulo-principal"><img src="style/imagens/logo_steam.svg"></h1>
+  <header class="header-menu">
+    <h1 class="titulo-principal"><img src="style/imagens/logo_steam.svg"></h1>
 
-            <nav class="menu">
-                <ul>
-                    <li><a href="#carousel-sobre">SOBRE</a></li>
-                    <li><a href="#card-pesquisa">PESQUISA</a></li>
-                    <li><a href="#contatos">CONTATOS</a></li>
-                </ul>
-            </nav>
-    </header>
-    <main>
-        <section id="carousel-sobre">
+    <nav class="menu">
+      <ul>
+        <li><a href="#carousel-sobre">SOBRE</a></li>
+        <li><a href="#card-pesquisa">PESQUISA</a></li>
+        <li><a href="#contatos">CONTATOS</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./style/imagens/slide01.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./style/imagens/slide02.jpg" alt="Second slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide-to="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide-to="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
 
-        </section>
+    <section id="card-pesquisa">
+      <div class="container">
+        <div class="card">
+          <div class="content">
+            <h2>01</h2>
+            <h3>pergunta um</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Visualizar gráfico</a>
+          </div>
+        </div>
 
-        <section id="card-pesquisa">
-            <div class="container">
-                <div class="card">
-                  <div class="content">
-                    <h2>01</h2>
-                    <h3>pergunta um</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="#">Visualizar gráfico</a>
-                  </div>
-                </div>
-              
-                <div class="card">
-                  <div class="content">
-                    <h2>02</h2>
-                    <h3>pergunta dois</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="#">Visualizar gráfico</a>
-                  </div>
-                </div>
-              
-                <div class="card">
-                  <div class="content">
-                    <h2>03</h2>
-                    <h3>pergunta tres</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="#">Visualizar gráfico</a>
-                  </div>
-                </div>
+        <div class="card">
+          <div class="content">
+            <h2>02</h2>
+            <h3>pergunta dois</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Visualizar gráfico</a>
+          </div>
+        </div>
 
-                <div class="card">
-                    <div class="content">
-                      <h2>04</h2>
-                      <h3>pergunta quatro</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                      <a href="#">Visualizar gráfico</a>
-                    </div>
-                  </div>
+        <div class="card">
+          <div class="content">
+            <h2>03</h2>
+            <h3>pergunta tres</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Visualizar gráfico</a>
+          </div>
+        </div>
 
-                  <div class="card">
-                    <div class="content">
-                      <h2>05</h2>
-                      <h3>pergunta cinco</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                      <a href="#">Visualizar gráfico</a>
-                    </div>
-                  </div>
+        <div class="card">
+          <div class="content">
+            <h2>04</h2>
+            <h3>pergunta quatro</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Visualizar gráfico</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <h2>05</h2>
+            <h3>pergunta cinco</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Visualizar gráfico</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contatos">
+      <div id="informaçõesDosDesenvolvedores">
+        <div class="tituloContatos">
+          <h1>CONTATOS</h1>
+        </div>
+        <div id="blocosDeContato">
+          <div id="usuarios" class="contatoKeu">
+            <img id="imagemContato" src="../Resilia-Projeto-Final-de-Modulo-03/style/imagens/Keu.jpg" alt="">
+            <div id="paragrafo">
+              <div id="nome">
+                <h3>Keu Santos</h3>
               </div>
-        </section>
+              <div id="cargo">
+                <h4>Co-Facilitador</h4>
+              </div>
 
-        <section id="contatos">
-        
-        </section>
-    </main>
-    <footer>
-        <p class="copyright">&copy; Desenvolvido para fins educativos</p>
-    </footer>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script src="./JS/vanilla-tilt.js"></script>
-    <script>
-           VanillaTilt.init(document.querySelectorAll(".card"), {
-              max: 25,
-              speed: 400,
-              glare: true,
-              "max-glare": 1,
-            });
-     </script>
+
+              <div id="links">
+                <div id="gitHub">
+                  <a href="https://github.com/k-js">
+                    <ion-icon id="icon" name="logo-github"></ion-icon>
+                  </a>
+                </div>
+                <div id="Linkedin">
+                  <a href="https://www.linkedin.com/in/keu-santos-8b79a1215/?originalSubdomain=br">
+                    <ion-icon id="icon" name="logo-linkedin"></ion-icon>                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="usuarios" class="contatoAna">
+            <img id="imagemContato" src="../Resilia-Projeto-Final-de-Modulo-03/style/imagens/ana.jfif" alt="">
+            <div id="paragrafo">
+              <div id="nome">
+                <h3>Ana Fedechem</h3>
+              </div>
+              <div id="cargo">
+                <h4>Gestão de Pessoas</h4>
+              </div>
+
+
+              <div id="links">
+                <div id="gitHub">
+                  <a href="https://github.com/anafedechem">
+                    <ion-icon id="icon" name="logo-github"></ion-icon>
+                  </a>
+                </div>
+                <div id="Linkedin">
+                  <a href="https://www.linkedin.com/in/ana-paula-fedechem-silva-184a301a4/?originalSubdomain=br">
+                    <ion-icon id="icon" name="logo-linkedin"></ion-icon>                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="usuarios" class="contatoMatheus">
+            <img id="imagemContato" src="../Resilia-Projeto-Final-de-Modulo-03/style/imagens/matheus.jfif" alt="">
+            <div id="paragrafo">
+              <div id="nome">
+                <h3>Matheus Yukio</h3>
+              </div>
+              <div id="cargo">
+              <h4>Gestão de Conhecimento</h4>
+              </div>
+
+
+              <div id="links">
+                <div id="gitHub">
+                  <a href="https://github.com/mathocihara">
+                    <ion-icon id="icon" name="logo-github"></ion-icon>
+                  </a>
+                </div>
+                <div id="Linkedin">
+                  <a href="https://www.linkedin.com/in/matheushocihara/">
+                    <ion-icon id="icon" name="logo-linkedin"></ion-icon>                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="usuarios" class="contatoJoão">
+            <img id="imagemContato" src="../Resilia-Projeto-Final-de-Modulo-03/style/imagens/joaoPedro.jfif" alt="">
+            <div id="paragrafo">
+              <div id="nome">
+                <h3>João Pedro</h3>
+              </div>
+              <div id="cargo">
+                <h4>Colaborador-1</h4>
+              </div>
+              <div id="links">
+                <div id="gitHub">
+                  <a href="https://github.com/joaokx">
+                    <ion-icon id="icon" name="logo-github"></ion-icon>
+                  </a>
+                </div>
+                <div id="Linkedin">
+                  <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-5536521a2/">
+                    <ion-icon id="icon" name="logo-linkedin"></ion-icon>                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="usuarios" class="contatoEduardo">
+            <img id="imagemContato" src="../Resilia-Projeto-Final-de-Modulo-03/style/imagens/Keu.jpg" alt="">
+            <div id="paragrafo">
+              <div id="cargo">
+                <div id="nome">
+                  <h3>Eduardo</h3>
+                </div>
+                <h4>Colaborador-2</h4>
+              </div>
+
+
+              <div id="links">
+                <div id="gitHub">
+                  <a href="https://github.com/k-js">
+                    <ion-icon id="icon" name="logo-github"></ion-icon>
+                  </a>
+                </div>
+                <div id="Linkedin">
+                  <a href="https://www.linkedin.com/in/keu-santos-8b79a1215/?originalSubdomain=br">
+                    <ion-icon id="icon" name="logo-linkedin"></ion-icon>                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p class="copyright">&copy; Desenvolvido para fins educativos</p>
+  </footer>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+  <!-- jquery para o slide -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+
+  <script src="./JS/vanilla-tilt.js"></script>
+  <script src="./JS/slide.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+      max: 25,
+      speed: 400,
+      glare: true,
+      "max-glare": 1,
+    });
+  </script>
+  <!-- links para o icones -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>

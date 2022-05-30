@@ -135,4 +135,70 @@ footer {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* PARTE - CONTATOS */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#nome{
+    color: #000;
+}
+#cargo{
+    color:#000;
+}
+#contatos{
+    display: flex;
+    width: 100%;
+    background-color: #3D4450;
+}
+#informaçõesDosDesenvolvedores{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.tituloContatos{
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+    justify-content: center;
+    color: #000;
+
+}
+
+#blocosDeContato{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+#usuarios{
+    display: flex;
+    flex-direction:column; 
+    text-align: center;
+    font-size: medium;
+}
+#paragrafo{
+    justify-content: centers;
+}
+#imagemContato{
+    display: flex;
+    border-radius: 48%;
+    box-shadow: 5px 0px 10px #000;
+    max-width:300px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+}
+#links{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+ion-icon{
+    display: flex;
+    height: 50px;
+    color: #000;
+}
+
 
