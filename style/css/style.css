@@ -148,9 +148,11 @@ footer {
 
 #nome{
     color: #000;
+    font-family: 'Spline Sans Mono', monospace;
 }
 #cargo{
     color:#000;
+    font-family: 'Motive Sans', sans-serif;
 }
 #contatos{
     display: flex;
@@ -168,7 +170,7 @@ footer {
     margin-top: 60px;
     justify-content: center;
     color: #000;
-
+    font-family: 'Passion One', cursive;
 }
 
 #blocosDeContato{
@@ -203,6 +205,13 @@ footer {
     flex-direction: row;
     justify-content: center;
 
+}
+
+.bi{
+    font-size: 50px;
+    align-items: center;
+    margin: 10px;
+    color: #000;
 }
 
 
