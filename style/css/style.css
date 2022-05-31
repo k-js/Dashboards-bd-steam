@@ -49,8 +49,8 @@ footer {
 	text-align: center;
 	background: #1b2838;
 	padding: 20px 0;
-    margin-top: 20px;
     color: #c5c3c0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* abaixo, as regras de css para os cards */
@@ -136,65 +136,74 @@ footer {
 }
 
 /* PARTE - CONTATOS */
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
 #nome{
     color: #000;
 }
+
 #cargo{
     color:#000;
 }
-#contatos{
+
+#equipe{
     display: flex;
     width: 100%;
     background-color: #3D4450;
+    height: 500px;
 }
-#informaçõesDosDesenvolvedores{
+
+.informaçõesDosDesenvolvedores{
     display: flex;
     width: 100%;
     flex-direction: column;
 }
+
 .tituloContatos{
     display: flex;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 40px;
     justify-content: center;
     color: #000;
-
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #blocosDeContato{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10px;
+    margin-top: 40px;
 }
+
 #usuarios{
     display: flex;
     flex-direction:column; 
     text-align: center;
-    font-size: medium;
 }
+
 #paragrafo{
     justify-content: centers;
+    font-size: 20px;
 }
+
 #imagemContato{
     display: flex;
-    border-radius: 48%;
+    border-radius: 70%;
     box-shadow: 5px 0px 10px #000;
-    max-width:300px;
-    max-height:250px;
-    width: auto;
-    height: auto;
+    width: 160px;
+    margin-left: 40px;
+    height: 170px;
+    margin-right: 40px;
+    margin-bottom: 50px;
 }
+
 #links{
     display: flex;
     width: 100%;
     flex-direction: row;
+    margin-left: 40px;
+    margin-right: 30px;
 }
+
 ion-icon{
     display: flex;
     height: 50px;
