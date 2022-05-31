@@ -5,7 +5,9 @@
 /* PARTE SLIDE */
 #carouselExampleControls{
     display: flex;
+    height: 800px;
 }
+
 /*  */
 
 body {
@@ -19,11 +21,6 @@ body {
 	width: 100%;
 }
 
-h1 img {
-    height: 65px;
-    margin-top: 10px;
-	margin-left: 200px;
-}
 
 .menu {
 	position: absolute;
