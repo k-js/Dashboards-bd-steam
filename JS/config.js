@@ -61,55 +61,7 @@ google.charts.load("current", {
     tabela.setCell(4, 4, "valores: 60.99");
     tabela.setCell(5, 4, "valores: 52.99");
   
-    tabela.setCell(
-      0,
-      3,
-      bandeira(
-        "https://cdn.discordapp.com/attachments/980922911365947402/980923078274064404/3D.jpg",
-        "3D Coat"
-      )
-    );
-    tabela.setCell(
-      1,
-      3,
-      bandeira(
-        
-        
-        "Leadwerks Game Engine"
-      )
-    );
-    tabela.setCell(
-      2,
-      3,
-      bandeira(
-        
-        ""
-      )
-    );
-    tabela.setCell(
-      3,
-      3,
-      bandeira(
-       
-        "Aartform Curvy "
-      )
-    );
-    tabela.setCell(
-      4,
-      3,
-      bandeira(
-       
-        "Clickteam Fusion"
-      )
-    );
-    tabela.setCell(
-      5,
-      3,
-      bandeira(
-       
-        "Wing IDE 5"
-      )
-    );
+    
   
     function bandeira(url, casa) {
       return `<div class="tooltipBarra">
@@ -218,93 +170,7 @@ google.charts.load("current", {
       },
     };
   
-    tabela.setCell(
-      0,
-      3,
-      bandeira(
-        "https://awoiaf.westeros.org/images/thumb/1/1e/House_Targaryen.svg/545px-House_Targaryen.svg.png",
-        "Casa Targaryan",
-        1148
-      )
-    );
-    tabela.setCell(
-      1,
-      3,
-      bandeira(
-        "https://awoiaf.westeros.org/images/thumb/d/d5/House_Lannister.svg/545px-House_Lannister.svg.png",
-        "Casa Lannister",
-        296
-      )
-    );
-  
-    tabela.setCell(
-      2,
-      3,
-      bandeira(
-        "https://awoiaf.westeros.org/images/thumb/7/7e/House_Stark.svg/545px-House_Stark.svg.png",
-        "Casa Stark",
-        184
-      )
-    );
-    tabela.setCell(
-      3,
-      3,
-      bandeira("https://i.postimg.cc/hv2bR8FN/unknown.png", "White Walkers", 79)
-    );
-    tabela.setCell(
-      4,
-      3,
-      bandeira(
-        "https://awoiaf.westeros.org/images/thumb/0/0c/House_Bolton.svg/545px-House_Bolton.svg.png",
-        "Casa Bolton",
-        76
-      )
-    );
-    tabela.setCell(
-      5,
-      3,
-      bandeira(
-        "https://awoiaf.westeros.org/images/thumb/f/f3/Night%27s_Watch.svg/545px-Night%27s_Watch.svg.png",
-        "Nigh Walkers",
-        69
-      )
-    );
-    tabela.setCell(
-      6,
-      3,
-      bandeira(
-        "https://i.postimg.cc/c4jw7Ld7/Ygritte.jpg",
-        "Ygritte como representante",
-        69
-      )
-    );
-    tabela.setCell(
-      7,
-      3,
-      bandeira(
-        "https://awoiaf.westeros.org/images/thumb/5/5b/House_Greyjoy.svg/545px-House_Greyjoy.svg.png",
-        "Casa dos Greyjoy",
-        44
-      )
-    );
-    tabela.setCell(
-      8,
-      3,
-      bandeira(
-        "https://awoiaf.westeros.org/images/d/d4/GhisHarpie.png",
-        "Sons of The Harpy",
-        38
-      )
-    );
-    tabela.setCell(
-      9,
-      3,
-      bandeira(
-        "https://awoiaf.westeros.org/images/thumb/c/c3/House_Baratheon_%28King%27s_Landing%29.svg/250px-House_Baratheon_%28King%27s_Landing%29.svg.png",
-        "Casa Baratheon de King's Landing",
-        34
-      )
-    );
+   
   
     function bandeira(url, casa, ass) {
       return `<div class="tooltipBarra">
@@ -408,51 +274,7 @@ google.charts.load("current", {
         "Daenerys Targaryen"
       )
     );
-    tabela.setCell(
-      1,
-      3,
-      personagem("https://i.postimg.cc/tChn6tmb/Cersei.webp", "Cersei Lannister")
-    );
-    tabela.setCell(
-      2,
-      3,
-      personagem("https://i.postimg.cc/Y2Fvcz7F/Arya.jpg", "Arya Stark")
-    );
-    tabela.setCell(
-      3,
-      3,
-      personagem("https://i.postimg.cc/FRLH4NMv/wight.jpg", "Wight")
-    );
-    tabela.setCell(
-      4,
-      3,
-      personagem("https://i.postimg.cc/vTwH8CyV/Tormund.jpg", "Tormund")
-    );
-    tabela.setCell(
-      5,
-      3,
-      personagem("https://i.postimg.cc/8zzkCh2t/Ramsay.webp", "Ramsay Bolton")
-    );
-    tabela.setCell(
-      6,
-      3,
-      personagem("https://i.postimg.cc/1twsdMF5/Brienne.jpg", "Brienne of Tarth")
-    );
-    tabela.setCell(
-      7,
-      3,
-      personagem("https://i.postimg.cc/NjFYtQXn/Pyat.webp", "Pyat Pree")
-    );
-    tabela.setCell(
-      8,
-      3,
-      personagem("https://i.postimg.cc/x1Xr7tDD/Yara.webp", "Yara Greyjoy")
-    );
-    tabela.setCell(
-      9,
-      3,
-      personagem("https://i.postimg.cc/0NST5jyV/Stannis.jpg", "Stannis Baratheon")
-    );
+    
   
     function personagem(url, personagem) {
       return `<div class="tooltipcoluna">
