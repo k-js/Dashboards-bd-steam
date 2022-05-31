@@ -9,6 +9,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style/css/style.css">
+  <link rel="stylesheet" href="style/css/dados.css">
+  <link rel="stylesheet" href="style/css/reset.css">
   <script src="jquery-3.6.0.min.js"></script>
   <title>STEAM - DADOS DE PESQUISA </title>
 </head>
@@ -99,7 +101,121 @@
         </div>
       </div>
     </section>
-
+    <section>
+      <main class="main-container">
+        <section class="content">
+          <div class="slides">
+            <input
+              class="invisivel"
+              type="radio"
+              name="slide"
+              id="slide1"
+              checked
+            />
+            <input class="invisivel" type="radio" name="slide" id="slide2" />
+            <input class="invisivel" type="radio" name="slide" id="slide3" />
+            <input class="invisivel" type="radio" name="slide" id="slide4" />
+            <input class="invisivel" type="radio" name="slide" id="slide5" />
+            <input class="invisivel" type="radio" name="slide" id="slide6" />
+            <input class="invisivel" type="radio" name="slide" id="slide7" />
+            <input class="invisivel" type="radio" name="slide" id="slide8" />
+            <input class="invisivel" type="radio" name="slide" id="slide9" />
+            <input class="invisivel" type="radio" name="slide" id="slide10" />
+    
+            <div class="slide s1">
+              <div class="conteudoGrafico">
+                <div class="conteudoTextual">
+                 
+                </div>
+                <div id="grafico-barra" class="grafico"></div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="conteudoGrafico">
+                <div class="conteudoTextual">
+                  
+                </div>
+                <div id="grafico-barra3"></div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="conteudoGrafico">
+                <div class="conteudoTextual">
+                 
+                </div>
+                <div id="grafico-coluna" class="grafico"></div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="conteudoGrafico">
+                <div class="conteudoTextual">
+                  
+                </div>
+                <div id="grafico-donut" class="grafico"></div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="conteudoGrafico">
+                <div class="conteudoTextual">
+                  
+                 
+                </div>
+                <div id="grafico-pizza" class="grafico"></div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="conteudoGrafico">
+                <div class="conteudoTextual">
+                 
+                  </p>
+                </div>
+                <div id="grafico-coluna2" class="grafico"></div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="conteudoGrafico">
+                <div class="conteudoTextual">
+                  
+                 
+                  </p>
+                </div>
+                <div id="grafico-bolha" class="grafico"></div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="conteudoGrafico">
+                <div class="conteudoTextual">
+               
+                  
+                </div>
+                <div id="grafico-area"></div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="conteudoGrafico">
+                <div class="conteudoTextual">
+                  
+                  
+                  </p>
+                </div>
+                <div id="grafico-teste" class="grafico"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="navigation">
+          <label class="bar" for="slide1" onclick="desenharBarra()"></label>
+          <label class="bar" for="slide2" onclick="desenharLinha()"></label>
+          <label class="bar" for="slide3" onclick="desenharbarra3()"></label>
+          <label class="bar" for="slide4" onclick="desenharColuna()"></label>
+          <label class="bar" for="slide5"></label>
+          <label class="bar" for="slide6"></label>
+          <label class="bar" for="slide7" onclick="desenharColuna2()"></label>
+          <label class="bar" for="slide8" onclick="desenharBolha()"></label>
+          <label class="bar" for="slide9" onclick="desenharArea()"></label>
+          <label class="bar" for="slide10" onclick="desenhar()"></label>
+        </div>
+    </section>
     <section id="equipe" class="informaçõesDosDesenvolvedores">
         <h2 class="tituloContatos">EQUIPE</h2>
         <div id="blocosDeContato">
@@ -241,7 +357,9 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="./JS/config.js"></script>
   <script src="./JS/vanilla-tilt.js"></script>
   <script src="./JS/slide.js"></script>
   <script>
