@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="style/imagens/logo_steam.svg" type="image/x-icon">
     <link rel="stylesheet" href="style/css/style.css">
-    
+    <link rel="stylesheet" href="style/css/dados.css">
+    <link rel="stylesheet" href="style/css/reset.css">
+  
     <title>STEAM - DADOS DE PESQUISA </title>
 </head>
 <body>
@@ -29,7 +31,7 @@
         <section id="card-pesquisa">
             <div class="container">
                 <div class="card">
-                  <div class="content">
+                  <div class="conteudoTextual">
                     <h2>01</h2>
                     <h3>pergunta um</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -78,10 +80,126 @@
         <section id="contatos">
         
         </section>
+        <main class="main-container">
+          <section class="content">
+            <div class="slides">
+              <input
+                class="invisivel"
+                type="radio"
+                name="slide"
+                id="slide1"
+                checked
+              />
+              <input class="invisivel" type="radio" name="slide" id="slide2" />
+              <input class="invisivel" type="radio" name="slide" id="slide3" />
+              <input class="invisivel" type="radio" name="slide" id="slide4" />
+              <input class="invisivel" type="radio" name="slide" id="slide5" />
+              <input class="invisivel" type="radio" name="slide" id="slide6" />
+              <input class="invisivel" type="radio" name="slide" id="slide7" />
+              <input class="invisivel" type="radio" name="slide" id="slide8" />
+              <input class="invisivel" type="radio" name="slide" id="slide9" />
+              <input class="invisivel" type="radio" name="slide" id="slide10" />
+      
+              <div class="slide s1">
+                <div class="conteudoGrafico">
+                  <div class="conteudoTextual">
+                   
+                  </div>
+                  <div id="grafico-barra" class="grafico"></div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="conteudoGrafico">
+                  <div class="conteudoTextual">
+                    
+                  </div>
+                  <div id="grafico-barra3"></div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="conteudoGrafico">
+                  <div class="conteudoTextual">
+                   
+                  </div>
+                  <div id="grafico-coluna" class="grafico"></div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="conteudoGrafico">
+                  <div class="conteudoTextual">
+                    
+                  </div>
+                  <div id="grafico-donut" class="grafico"></div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="conteudoGrafico">
+                  <div class="conteudoTextual">
+                    
+                   
+                  </div>
+                  <div id="grafico-pizza" class="grafico"></div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="conteudoGrafico">
+                  <div class="conteudoTextual">
+                   
+                    </p>
+                  </div>
+                  <div id="grafico-coluna2" class="grafico"></div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="conteudoGrafico">
+                  <div class="conteudoTextual">
+                    
+                   
+                    </p>
+                  </div>
+                  <div id="grafico-bolha" class="grafico"></div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="conteudoGrafico">
+                  <div class="conteudoTextual">
+                 
+                    
+                  </div>
+                  <div id="grafico-area"></div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="conteudoGrafico">
+                  <div class="conteudoTextual">
+                    
+                    
+                    </p>
+                  </div>
+                  <div id="grafico-teste" class="grafico"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="navigation">
+            <label class="bar" for="slide1" onclick="desenharBarra()"></label>
+            <label class="bar" for="slide2" onclick="desenharLinha()"></label>
+            <label class="bar" for="slide3" onclick="desenharbarra3()"></label>
+            <label class="bar" for="slide4" onclick="desenharColuna()"></label>
+            <label class="bar" for="slide5"></label>
+            <label class="bar" for="slide6"></label>
+            <label class="bar" for="slide7" onclick="desenharColuna2()"></label>
+            <label class="bar" for="slide8" onclick="desenharBolha()"></label>
+            <label class="bar" for="slide9" onclick="desenharArea()"></label>
+            <label class="bar" for="slide10" onclick="desenhar()"></label>
+          </div>
     </main>
     <footer>
         <p class="copyright">&copy; Desenvolvido para fins educativos</p>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="./JS/config.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="./JS/vanilla-tilt.js"></script>
