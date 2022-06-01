@@ -30,11 +30,16 @@ VISUALIZAÇÃO DE DADOS</h1>
   <li style="font-size: 20px">Jogos +18 ?</li>
  <img src="https://cdn.discordapp.com/attachments/980932145054900344/981349935586893844/Captura_de_Tela_371.png" alt="query10"/>
 </ol>
+  
+##📑 Entidades/driagram
+<img src="<img src="style/imagens/imgTrello.png" width="900px;" alt="imagem do driagrama"/>
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
 - ``HTML``
 - ``CSS``
+- ``JavaScript``
+- ``Google Chart``
 - ``MYSQL``
 
 ## 📝 Metodologias ágeis
