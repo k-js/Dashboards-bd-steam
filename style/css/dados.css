@@ -1,6 +1,6 @@
 body {
     min-height: 100%;
-    height: 100vh;
+    
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -45,14 +45,6 @@ body {
     margin: 0 3rem;
   }
   
-  .logo {
-    align-self: flex-start;
-    place-self: start;
-    width: 100px;
-    filter: invert(102%) saturate(100%) hue-rotate(18deg) brightness(180%)
-      contrast(190%);
-    filter: drop-shadow(2px 4px 8px rgb(241, 235, 235));
-  }
   .main-container {
    
     background-size: cover;
@@ -63,7 +55,7 @@ body {
     justify-items: center;
     align-content: center;
     box-sizing: inherit;
-    background: black;
+    background: #1b2838;
   }
   .content {
     display: flex;
