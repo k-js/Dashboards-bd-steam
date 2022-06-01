@@ -5,8 +5,7 @@ VISUALIZAÇÃO DE DADOS</h1>
 <h2 align="center"> De que adiantam os dados se não podemos vê-los? <h2>
 
 <div align="center">
-    <h2 style="font-size: 30px">Steam_Database</h2>
-    <h3 style="font-size: 20px">Sub-Tema</h3>
+    <h3 style="font-size: 50px">Sub-Tema</h3>
     <p style="font-size: 40px">Jogos e Seus impactos Econômicos</p>
 </div>
 <div align="center">
@@ -16,6 +15,8 @@ VISUALIZAÇÃO DE DADOS</h1>
 ## 🔖 Descrição 
 <p style="font-size: 18px">- Projeto teve como objetivo a manipulação de um bando de dados, o software utilizado para gerenciamento dos dados foi o MySQL, a partir das informações fornecidas no banco de dados, as perguntas foram elaboradas, os resultados foram apresentados por meio de gráficos.</p
 <p style="font-size: 18px">- Objetivo do trabalho é aplicar os conceitos vistos ao longo do módulo de Dados e iniciarmos uma jornada sobre visualização de dados. A criação de dashboards é algo importante para que o time de Dados consiga transmitir o conhecimento gerado para outras áreas e para facilitar a visualização dos dados. Criamos perguntas que agregam valor.</p>
+
+<h2 style="font-size: 30px">Steam_Database</h2>
   
  ## 📋 Querys/Perguntas
 <ol style="line-height:370%">
