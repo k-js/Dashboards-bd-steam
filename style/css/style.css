@@ -39,12 +39,34 @@ h1 img {
 	font-size: 22px;
 	text-decoration: none;
 }
+@media(min-width: 1024px) {
+    .div-img-carousel, .item.active {
+        overflow: hidden;
+        width: 700px;
+        height: 400px;
+        margin: 0 auto;
+    }
 
-.menu a:hover {
-	color: #323ee6;
-	text-decoration: none;
+    .carousel-inner {
+        width: 40%;
+    }
+
+    #meuSlider {
+        width: 500px;
+       
+    }
 }
 
+.carousel-inner{
+    width: 500px;
+    height: 500px; 
+  }
+
+  .cd-block w-100{
+    width: 500px;
+    height: 500px; 
+  }
+  
 footer {
 	text-align: center;
 	background: #1b2838;
@@ -52,6 +74,8 @@ footer {
     color: #c5c3c0;
     font-family: 'Montserrat', sans-serif;
 }
+
+
 
 /* abaixo, as regras de css para os cards */
 #card-pesquisa {
