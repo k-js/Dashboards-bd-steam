@@ -31,7 +31,8 @@ VISUALIZAÇÃO DE DADOS</h1>
  <img src="https://cdn.discordapp.com/attachments/980932145054900344/981349935586893844/Captura_de_Tela_371.png" alt="query10"/>
 </ol>
   
-##📑 Entidades/driagram
+## 📑 Entidades/driagram
+  
 <img src="https://cdn.discordapp.com/attachments/980932145054900344/981385091408343090/Captura_de_tela_2022-05-31_233208.png" width="900px;" alt="imagem do driagrama"/>
 
 ## ✔️ Técnicas e tecnologias utilizadas
