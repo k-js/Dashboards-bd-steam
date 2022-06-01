@@ -21,7 +21,7 @@ google.charts.load("current", {
     );
     google.visualization.events.addListener(visualization, "click", separar);
     let options = {
-      backgroundColor: "black",
+      backgroundColor: "#1b2838",
       legend: { position: "labeled", textStyle: { color: "white" } },
       is3D: true,
       height: [altura],
@@ -34,7 +34,7 @@ google.charts.load("current", {
         legend: { position: "labeled", textStyle: { color: "white" } },
         is3D: true,
         height: [altura],
-        backgroundColor: "black",
+        backgroundColor: "#1b2838",
         width: [largura],
       });
       visualization.draw(tabela, options);
@@ -71,7 +71,7 @@ google.charts.load("current", {
     }
   
     let options = {
-      backgroundColor: "black",
+      backgroundColor: "#1b2838",
       colors: ["red"],
       annotations: { alwaysOutside: true },
       tooltip: { isHtml: true },
@@ -107,7 +107,7 @@ google.charts.load("current", {
       document.getElementById("grafico-linha")
     );
     let options = {
-      backgroundColor: "white",
+      backgroundColor: "#1b2838",
       animation: {
         startup: true,
         duration: 3000,
@@ -145,7 +145,7 @@ google.charts.load("current", {
       document.getElementById("grafico-coluna")
     );
     let options = {
-      backgroundColor: "black",
+      backgroundColor: "#1b2838",
       tooltip: { isHtml: true },
       height: [altura],
       width: [largura],
@@ -206,7 +206,7 @@ google.charts.load("current", {
           4: { color: "#898989" },
           [n]: { offset: 0.2, color: "red" },
         },
-        backgroundColor: "black",
+        backgroundColor: "#1b2838",
         legend: { position: "labeled", textStyle: { color: "white" } },
         height: [altura],
         width: [largura],
@@ -217,7 +217,7 @@ google.charts.load("current", {
       visualization.draw(tabela, options);
     }
     let options = {
-      backgroundColor: "black",
+      backgroundColor: "#1b2838",
       height: [altura],
       width: [largura],
       pieHole: 0.4,
@@ -247,7 +247,7 @@ google.charts.load("current", {
     );
   
     let options = {
-      backgroundColor: "black",
+      backgroundColor: "#1b2838",
       animation: {
         startup: true,
         duration: 3500,
@@ -296,7 +296,7 @@ google.charts.load("current", {
       document.getElementById("grafico-bolha")
     );
     let options = {
-      backgroundColor: "black",
+      backgroundColor: "#1b2838",
       animation: {
         startup: true,
         duration: 4000,
@@ -340,7 +340,7 @@ google.charts.load("current", {
     );
   
     let options = {
-      backgroundColor: "black",
+      backgroundColor: "#1b2838",
       colors: ["#BCBCBC"],
       height: [altura],
       width: [largura],
@@ -376,7 +376,7 @@ google.charts.load("current", {
     );
   
     let options = {
-      backgroundColor: "black",
+      backgroundColor: "#1b2838",
       colors: ["green"],
       animation: {
         startup: true,
@@ -408,7 +408,7 @@ google.charts.load("current", {
     );
   
     let options = {
-      backgroundColor: "black",
+      backgroundColor: "#1b2838",
       colors: ["#750103"],
       animation: {
         startup: true,
