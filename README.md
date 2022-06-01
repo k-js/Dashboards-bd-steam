@@ -18,7 +18,7 @@ VISUALIZAÇÃO DE DADOS</h1>
 
  ## 📋 Querys/Perguntas
   
- <h2 style="font-size: 30px">Steam_Database</h2> : https://drive.google.com/drive/folders/16mAGr-qUw6D3crOmOKR9AvgYOzKoHGhu
+ <h2 style="font-size: 30px">Steam_Database<p> https://drive.google.com/drive/folders/16mAGr-qUw6D3crOmOKR9AvgYOzKoHGhu<p></h2>
   
 <ol style="line-height:370%">
   <li style="font-size: 20px">Anos com mais lançamentos de jogos ?</li>
