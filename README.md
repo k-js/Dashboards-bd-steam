@@ -32,7 +32,7 @@ VISUALIZAÇÃO DE DADOS</h1>
 </ol>
   
 ##📑 Entidades/driagram
-<img src="<img src="style/imagens/imgTrello.png" width="900px;" alt="imagem do driagrama"/>
+<img src="https://cdn.discordapp.com/attachments/980932145054900344/981385091408343090/Captura_de_tela_2022-05-31_233208.png" width="900px;" alt="imagem do driagrama"/>
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
