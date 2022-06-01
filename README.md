@@ -5,7 +5,6 @@ VISUALIZAÇÃO DE DADOS</h1>
 <h2 align="center"> De que adiantam os dados se não podemos vê-los? <h2>
 
 <div align="center">
-    <img  width="200px" height="140px" src="https://i.ebayimg.com/images/g/qYUAAOSwd4tT5UhZ/s-l400.jpg">
     <h2 style="font-size: 30px">Steam_Database</h2>
     <h3 style="font-size: 20px">Sub-Tema</h3>
     <p style="font-size: 40px">Jogos e Seus impactos Econômicos</p>
