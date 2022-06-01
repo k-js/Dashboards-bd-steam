@@ -7,7 +7,7 @@ VISUALIZAÇÃO DE DADOS</h1>
 <p style="font-size: 18px">- O projeto teve como objetivo a manipulação de um bando de dados, o software utilizado para gerenciamento dos dados foi o MySQL, a partir das informações fornecidas no banco de dados, as perguntas foram elaboradas, os resultados foram apresentados por meio de gráficos.</p
 <p style="font-size: 18px">- O objetivo do trabalho é aplicar os conceitos vistos ao longo do módulo de Dados e iniciarmos uma jornada sobre visualização de dados. A criação de dashboards é algo importante para que o time de Dados consiga transmitir o conhecimento gerado para outras áreas e para facilitar a visualização dos dados. Criamos perguntas que agregam valor.</p>
   
-<h1> # 📋 Querys/Perguntas </h1>
+ ## 📋 Querys/Perguntas
 <ol style="line-height:370%">
   <li style="font-size: 20px">Anos com mais lançamentos de jogos ?</li>
  <img src="https://cdn.discordapp.com/attachments/980932145054900344/980933163759050892/lancamentos_.png" alt="query1"/>
@@ -45,6 +45,6 @@ VISUALIZAÇÃO DE DADOS</h1>
 
 <table align="center">
   <tr>
-<td align="center"><a href="https://github.com/k-js"><img src="style/imagens/Keu.jpg" width="100px;" alt=""/><br /><sub><b>k-js</b></sub></a><br /><a href="contribuiçes" title="Documentation">📖</a></td><td align="center"><a href="https://github.com/anafedechem"><img src="https://avatars.githubusercontent.com/u/99834350?v=4" width="100px;" alt=""/><br /><sub><b>Ana</b></sub></a><br /><a href="contribuiçes" title="Documentation">💻</a></td><td align="center"><a href="https://github.com/joaokx"><img src="https://avatars.githubusercontent.com/u/84516017?v=4" width="100px;" alt=""/><br /><sub><b>João</b></sub></a><br /><a href="contribuiçes" title="Documentation">🌍</a></td><td align="center"><a href="https://github.com/mathocihara"><img src="https://avatars.githubusercontent.com/u/100290301?v=4" width="100px;" alt=""/><br /><sub><b>Matheus</b></sub></a><br /><a href="contribuiçes" title="Documentation">🎨</a></td>
+<td align="center"><a href="https://github.com/k-js"><img src="style/imagens/Keu.jpg" width="100px;" alt=""/><br /><sub><b>k-js</b></sub></a><br /><a href="contribuiçes" title="Documentation">📖</a></td><td align="center"><a href="https://github.com/anafedechem"><img src="https://avatars.githubusercontent.com/u/99834350?v=4" width="100px;" alt=""/><br /><sub><b>Ana</b></sub></a><br /><a href="contribuiçes" title="Documentation">💻</a></td><td align="center"><a href="https://github.com/joaokx"><img src="https://avatars.githubusercontent.com/u/84516017?v=4" width="100px;" alt=""/><br /><sub><b>João</b></sub></a><br /><a href="contribuiçes" title="Documentation">🌍</a></td><td align="center"><a href="https://github.com/mathocihara"><img src="https://avatars.githubusercontent.com/u/100290301?v=4" width="100px;" alt=""/><br /><sub><b>Matheus</b></sub></a><br /><a href="contribuiçes" title="Documentation">🎨</a></td><td align="center"><a href="https://github.com/eduu25"><img src="https://avatars.githubusercontent.com/u/100290358?v=4" width="100px;" alt=""/><br /><sub><b>Eduardo</b></sub></a><br /><a href="contribuiçes" title="Documentation">🚇</a></td>
  </tr>
 </table>
