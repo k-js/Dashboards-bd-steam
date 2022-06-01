@@ -211,5 +211,13 @@ ion-icon{
 }
 
 #carousel {
-    background-color: #212529
+    background-color: #23262e
+}
+
+.bar{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
