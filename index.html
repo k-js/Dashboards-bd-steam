@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,37 +30,34 @@
 
   <main>
     <section id="carousel">
-          <!-- início do carrossel -->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="width: 60%; margin: auto;">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./style/imagens/slide01.jpg" class="d-block w-100" alt="..." >
+      <!-- início do carrossel -->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"
+        style="width: 60%; margin: auto;">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./style/imagens/slide01.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./style/imagens/slide02.jpg" class="d-block w-100" alt="...">
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="./style/imagens/slide02.jpg" class="d-block w-100" alt="...">
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
     </section>
     <section>
       <section class="main-container">
         <section class="content">
           <div class="slides">
-            <input
-              class="invisivel"
-              type="radio"
-              name="slide"
-              id="slide1"
-              checked
-            />
+            <input class="invisivel" type="radio" name="slide" id="slide1" checked />
             <input class="invisivel" type="radio" name="slide" id="slide2" />
             <input class="invisivel" type="radio" name="slide" id="slide3" />
             <input class="invisivel" type="radio" name="slide" id="slide4" />
@@ -69,11 +67,11 @@
             <input class="invisivel" type="radio" name="slide" id="slide8" />
             <input class="invisivel" type="radio" name="slide" id="slide9" />
             <input class="invisivel" type="radio" name="slide" id="slide10" />
-    
+
             <div class="slide s1">
               <div class="conteudoGrafico">
                 <div class="conteudoTextual">
-                 
+
                 </div>
                 <div id="grafico-barra" class="grafico"></div>
               </div>
@@ -81,7 +79,7 @@
             <div class="slide">
               <div class="conteudoGrafico">
                 <div class="conteudoTextual">
-                  
+
                 </div>
                 <div id="grafico-barra3"></div>
               </div>
@@ -89,7 +87,7 @@
             <div class="slide">
               <div class="conteudoGrafico">
                 <div class="conteudoTextual">
-                 
+
                 </div>
                 <div id="grafico-coluna" class="grafico"></div>
               </div>
@@ -97,7 +95,7 @@
             <div class="slide">
               <div class="conteudoGrafico">
                 <div class="conteudoTextual">
-                  
+
                 </div>
                 <div id="grafico-donut" class="grafico"></div>
               </div>
@@ -105,8 +103,8 @@
             <div class="slide">
               <div class="conteudoGrafico">
                 <div class="conteudoTextual">
-                  
-                 
+
+
                 </div>
                 <div id="grafico-pizza" class="grafico"></div>
               </div>
@@ -114,7 +112,7 @@
             <div class="slide">
               <div class="conteudoGrafico">
                 <div class="conteudoTextual">
-                 
+
                   </p>
                 </div>
                 <div id="grafico-coluna2" class="grafico"></div>
@@ -123,8 +121,8 @@
             <div class="slide">
               <div class="conteudoGrafico">
                 <div class="conteudoTextual">
-                  
-                 
+
+
                   </p>
                 </div>
                 <div id="grafico-bolha" class="grafico"></div>
@@ -133,8 +131,8 @@
             <div class="slide">
               <div class="conteudoGrafico">
                 <div class="conteudoTextual">
-               
-                  
+
+
                 </div>
                 <div id="grafico-area"></div>
               </div>
@@ -142,8 +140,8 @@
             <div class="slide">
               <div class="conteudoGrafico">
                 <div class="conteudoTextual">
-                  
-                  
+
+
                   </p>
                 </div>
                 <div id="grafico-teste" class="grafico"></div>
@@ -163,13 +161,13 @@
           <label class="bar" for="slide9" onclick="desenharArea()">9</label>
           <label class="bar" for="slide10" onclick="desenhar()">10</label>
         </div>
-    </section>
-    <section id="equipe" class="informaçõesDosDesenvolvedores">
+      </section>
+      <section id="equipe" class="informaçõesDosDesenvolvedores">
         <h2 class="tituloContatos">EQUIPE</h2>
         <div id="blocosDeContato">
           <!-- contato Keu -->
           <div id="usuarios" class="contatoKeu">
-            <img id="imagemContato" src=".../style/imagens/Keu.jpg" alt="">
+            <img id="imagemContato" src="../Resilia-Projeto-Final-de-Modulo-03/style/imagens/Keu.jpg" alt="">
             <div id="paragrafo">
               <div id="nome">
                 <h3>Keu Santos</h3>
@@ -185,7 +183,8 @@
                 </div>
                 <div id="Linkedin">
                   <a href="https://www.linkedin.com/in/keu-santos-8b79a1215/?originalSubdomain=br">
-                    <ion-icon id="icon" name="logo-linkedin"></ion-icon>                  </a>
+                    <ion-icon id="icon" name="logo-linkedin"></ion-icon>
+                  </a>
                 </div>
               </div>
             </div>
@@ -193,7 +192,7 @@
 
           <!-- contato Ana -->
           <div id="usuarios" class="contatoAna">
-            <img id="imagemContato" src=".../style/imagens/ana.jfif" alt="">
+            <img id="imagemContato" src="../Resilia-Projeto-Final-de-Modulo-03/style/imagens/ana.jfif" alt="">
             <div id="paragrafo">
               <div id="nome">
                 <h3>Ana Fedechem</h3>
@@ -209,7 +208,8 @@
                 </div>
                 <div id="Linkedin">
                   <a href="https://www.linkedin.com/in/ana-paula-fedechem-silva-184a301a4/?originalSubdomain=br">
-                    <ion-icon id="icon" name="logo-linkedin"></ion-icon>                  </a>
+                    <ion-icon id="icon" name="logo-linkedin"></ion-icon>
+                  </a>
                 </div>
               </div>
             </div>
@@ -217,13 +217,13 @@
 
           <!-- contato Matheus -->
           <div id="usuarios" class="contatoMatheus">
-            <img id="imagemContato" src=".../style/imagens/matheus.jfif" alt="">
+            <img id="imagemContato" src="../Resilia-Projeto-Final-de-Modulo-03/style/imagens/matheus.jfif" alt="">
             <div id="paragrafo">
               <div id="nome">
                 <h3>Matheus Yukio</h3>
               </div>
               <div id="cargo">
-              <h4>Gestão de Conhecimento</h4>
+                <h4>Gestão de Conhecimento</h4>
               </div>
               <div id="links">
                 <div id="gitHub">
@@ -233,7 +233,8 @@
                 </div>
                 <div id="Linkedin">
                   <a href="https://www.linkedin.com/in/matheushocihara/">
-                    <ion-icon id="icon" name="logo-linkedin"></ion-icon>                  </a>
+                    <ion-icon id="icon" name="logo-linkedin"></ion-icon>
+                  </a>
                 </div>
               </div>
             </div>
@@ -241,7 +242,7 @@
 
           <!-- contato João -->
           <div id="usuarios" class="contatoJoão">
-            <img id="imagemContato" src=".../style/imagens/joaoPedro.jfif" alt="">
+            <img id="imagemContato" src="../Resilia-Projeto-Final-de-Modulo-03/style/imagens/joaoPedro.jfif" alt="">
             <div id="paragrafo">
               <div id="nome">
                 <h3>João Pedro</h3>
@@ -257,7 +258,8 @@
                 </div>
                 <div id="Linkedin">
                   <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-5536521a2/">
-                    <ion-icon id="icon" name="logo-linkedin"></ion-icon>                  </a>
+                    <ion-icon id="icon" name="logo-linkedin"></ion-icon>
+                  </a>
                 </div>
               </div>
             </div>
@@ -265,7 +267,7 @@
 
           <!-- contato Eduardo -->
           <div id="usuarios" class="contatoEduardo">
-            <img id="imagemContato" src=".../style/imagens/edu.jpg" alt="">
+            <img id="imagemContato" src="../Resilia-Projeto-Final-de-Modulo-03/style/imagens/edu.jpg" alt="">
             <div id="paragrafo">
               <div id="cargo">
                 <div id="nome">
@@ -277,48 +279,50 @@
 
               <div id="links">
                 <div id="gitHub">
-                  <a href="https://github.com/k-js">
+                  <a href="https://github.com/eduu25">
                     <ion-icon id="icon" name="logo-github"></ion-icon>
                   </a>
                 </div>
                 <div id="Linkedin">
                   <a href="https://www.linkedin.com/in/keu-santos-8b79a1215/?originalSubdomain=br">
-                    <ion-icon id="icon" name="logo-linkedin"></ion-icon>                  </a>
+                    <ion-icon id="icon" name="logo-linkedin"></ion-icon>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-    </section>
- 
-  <footer>
-    <p class="copyright">&copy; Desenvolvido para fins educativos</p>
-  </footer>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+      </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-  </script>
-  <!-- jquery para o slide -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<script src="./JS/config.js"></script>
-  <script src="./JS/vanilla-tilt.js"></script>
-  <script src="./JS/slide.js"></script>
-  <script>
-    VanillaTilt.init(document.querySelectorAll(".card"), {
-      max: 25,
-      speed: 400,
-      glare: true,
-      "max-glare": 1,
-    });
-  </script>
-  <!-- links para o icones -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <footer>
+        <p class="copyright">&copy; Desenvolvido para fins educativos</p>
+      </footer>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
+      <!-- jquery para o slide -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <script src="./JS/config.js"></script>
+      <script src="./JS/vanilla-tilt.js"></script>
+      <script src="./JS/slide.js"></script>
+      <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+          max: 25,
+          speed: 400,
+          glare: true,
+          "max-glare": 1,
+        });
+      </script>
+      <!-- links para o icones -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
