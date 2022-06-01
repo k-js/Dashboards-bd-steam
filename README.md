@@ -18,7 +18,7 @@ VISUALIZAÇÃO DE DADOS</h1>
 
  ## 📋 Querys/Perguntas
   
- <h2 style="font-size: 30px">Steam_Database</h2>
+ <p style="font-size: 30px">Steam_Database<p>
  <p style="font-size: 15px"> https://drive.google.com/drive/folders/16mAGr-qUw6D3crOmOKR9AvgYOzKoHGhu<p>
   
 <ol style="line-height:370%">
