@@ -16,9 +16,10 @@ VISUALIZAÇÃO DE DADOS</h1>
 <p style="font-size: 18px">- Projeto teve como objetivo a manipulação de um bando de dados, o software utilizado para gerenciamento dos dados foi o MySQL, a partir das informações fornecidas no banco de dados, as perguntas foram elaboradas, os resultados foram apresentados por meio de gráficos.</p
 <p style="font-size: 18px">- Objetivo do trabalho é aplicar os conceitos vistos ao longo do módulo de Dados e iniciarmos uma jornada sobre visualização de dados. A criação de dashboards é algo importante para que o time de Dados consiga transmitir o conhecimento gerado para outras áreas e para facilitar a visualização dos dados. Criamos perguntas que agregam valor.</p>
 
-<h2 style="font-size: 30px">Steam_Database</h2>
-  
  ## 📋 Querys/Perguntas
+  
+ <h2 style="font-size: 30px">Steam_Database</h2>
+  
 <ol style="line-height:370%">
   <li style="font-size: 20px">Anos com mais lançamentos de jogos ?</li>
  <img src="https://cdn.discordapp.com/attachments/980932145054900344/980933163759050892/lancamentos_.png" alt="query1"/>
