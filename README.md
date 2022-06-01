@@ -3,6 +3,16 @@
 VISUALIZAÇÃO DE DADOS</h1>
 
 <h2 align="center"> De que adiantam os dados se não podemos vê-los? <h2>
+
+<div align="center">
+    <img  width="200px" height="140px" src="https://i.ebayimg.com/images/g/qYUAAOSwd4tT5UhZ/s-l400.jpg">
+    <h2 style="font-size: 30px">Steam_Database</h2>
+    <h3 style="font-size: 20px">Sub-Tema</h3>
+    <p style="font-size: 40px">Jogos e Seus impactos Econômicos</p>
+</div>
+<div align="center">
+<img src="https://cdn.cloudflare.steamstatic.com/store/home/store_home_share.jpg"/>
+</div>
   
 ## 🔖 Descrição 
 <p style="font-size: 18px">- Projeto teve como objetivo a manipulação de um bando de dados, o software utilizado para gerenciamento dos dados foi o MySQL, a partir das informações fornecidas no banco de dados, as perguntas foram elaboradas, os resultados foram apresentados por meio de gráficos.</p
