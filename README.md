@@ -22,26 +22,45 @@ VISUALIZAÇÃO DE DADOS</h1>
  <p style="font-size: 15px"> https://drive.google.com/drive/folders/16mAGr-qUw6D3crOmOKR9AvgYOzKoHGhu<p>
   
 <ol style="line-height:370%">
-  <li style="font-size: 20px">Anos com mais lançamentos de jogos ?</li>
+<li style="font-size: 20px">Anos com mais lançamentos de jogos ?</li>
  <img src="https://cdn.discordapp.com/attachments/980932145054900344/980933163759050892/lancamentos_.png" alt="query1"/>
+ <img src="../Resilia-Projeto-Final-de-Modulo-03/style/imagens/img_rm/ano.png" alt=""/>
+
   <li style="font-size: 20px">Quais os jogos mais caros da plantaforma?</li>
  <img src="https://cdn.discordapp.com/attachments/980932145054900344/981337081034985492/Captura_de_Tela_363.png" alt="query2"/>
+  <img src="https://cdn.discordapp.com/attachments/980932145054900344/982019903999578222/jogos_mais_caros.png" alt=""/>
+
   <li style="font-size: 20px">Jogos mais bem avaliados da plantaforma?</li>
    <img src="https://cdn.discordapp.com/attachments/980932145054900344/980932204744032337/avaliados_positivamente.png" alt="query3"/>
+    <img src="../Resilia-Projeto-Final-de-Modulo-03/style/imagens/img_rm/avaliado.png" alt=""/>
+
   <li style="font-size: 20px">Jogos mais bem avaliados lançados em 2013?</li>
  <img src="https://cdn.discordapp.com/attachments/980932145054900344/980933163494834266/jogos_mais_bem_avaliados_lancados_em_2013.png" alt="query4"/>
+  <img src="../Resilia-Projeto-Final-de-Modulo-03/style/imagens/img_rm/Avali2023.png" alt=""/>
+
   <li style="font-size: 20px">Jogos grátis com mais avaliações negativas?</li>
  <img src="https://cdn.discordapp.com/attachments/980932145054900344/981344159627620372/Captura_de_Tela_365.png" alt="query5"/>
+  <img src="../Resilia-Projeto-Final-de-Modulo-03/style/imagens/img_rm/gratis.png" alt=""/>
+
   <li style="font-size: 20px">jogos baratos, com a maior media por tempo jogado?</li>
  <img src="https://cdn.discordapp.com/attachments/980932145054900344/980932205222199316/jogos_mais_baratos.png" alt="query6"/>
+  <img src="../Resilia-Projeto-Final-de-Modulo-03/style/imagens/img_rm/tempo.png" alt=""/>
+
   <li style="font-size: 20px">Desenvolvedoras com o maior numero de jogos na plantaforma?</li>
  <img src="https://cdn.discordapp.com/attachments/980932145054900344/981346162776895518/Captura_de_Tela_367.png" alt="query7"/>
+  <img src="" alt=""/>
+
   <li style="font-size: 20px">Editoras com o maior numero de jogos publicados na plantaforma?</li>
  <img src="https://cdn.discordapp.com/attachments/980932145054900344/981347747259117658/Captura_de_Tela_368.png" alt="query8"/>
+  <img src="../Resilia-Projeto-Final-de-Modulo-03/style/imagens/img_rm/editora.png" alt=""/>
+
    <li style="font-size: 20px">Jogos que rodam com no minimo 500mhz de processor?</li>
  <img src="https://cdn.discordapp.com/attachments/980932145054900344/980932204261670993/500_mhz_processor.png" alt="query9"/>
+  <img src="" alt=""/>
+
   <li style="font-size: 20px">Jogos +18 ?</li>
  <img src="https://cdn.discordapp.com/attachments/975803287234289715/982008097377755166/weieiieie.png" alt="query10"/>
+  <img src="" alt=""/>
 </ol>
   
 ## 📑 Entidades/driagram
