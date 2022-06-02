@@ -20,15 +20,21 @@ VISUALIZAÇÃO DE DADOS</h1>
   
  <h4>Steam_Database<h4>
  <p style="font-size: 15px"> https://drive.google.com/drive/folders/16mAGr-qUw6D3crOmOKR9AvgYOzKoHGhu<p>
-  
-<ol style="line-height:370%">
-<li style="font-size: 20px">Anos com mais lançamentos de jogos ?</li>
+
+ <table>
+ <tr>
+ <ol style="line-height:370%">
+ <td>
+ <li style="font-size: 20px">Anos com mais lançamentos de jogos ?</li>
  <img src="https://cdn.discordapp.com/attachments/980932145054900344/980933163759050892/lancamentos_.png" alt="query1"/>
  <img src="https://cdn.discordapp.com/attachments/980932145054900344/981364692373094400/Captura_de_Tela_379.png" alt=""/>
+ <td>
 
+ <td>
   <li style="font-size: 20px">Quais os jogos mais caros da plantaforma?</li>
  <img src="https://cdn.discordapp.com/attachments/980932145054900344/981337081034985492/Captura_de_Tela_363.png" alt="query2"/>
   <img src="https://cdn.discordapp.com/attachments/980932145054900344/982019903999578222/jogos_mais_caros.png" alt=""/>
+<td>
 
   <li style="font-size: 20px">Jogos mais bem avaliados da plantaforma?</li>
    <img src="https://cdn.discordapp.com/attachments/980932145054900344/980932204744032337/avaliados_positivamente.png" alt="query3"/>
@@ -62,6 +68,10 @@ VISUALIZAÇÃO DE DADOS</h1>
  <img src="https://cdn.discordapp.com/attachments/975803287234289715/982008097377755166/weieiieie.png" alt="query10"/>
   <img src="" alt=""/>
 </ol>
+</tr>
+</table>
+  
+
   
 ## 📑 Entidades/driagram
   
@@ -86,3 +96,4 @@ VISUALIZAÇÃO DE DADOS</h1>
 <td align="center"><a href="https://github.com/k-js"><img src="style/imagens/Keu.jpg" width="100px;" alt=""/><br /><sub><b>k-js</b></sub></a><br /><a href="contribuiçes" title="Documentation">📖</a></td><td align="center"><a href="https://github.com/anafedechem"><img src="https://avatars.githubusercontent.com/u/99834350?v=4" width="100px;" alt=""/><br /><sub><b>Ana</b></sub></a><br /><a href="contribuiçes" title="Documentation">💻</a></td><td align="center"><a href="https://github.com/joaokx"><img src="https://avatars.githubusercontent.com/u/84516017?v=4" width="100px;" alt=""/><br /><sub><b>João</b></sub></a><br /><a href="contribuiçes" title="Documentation">🌍</a></td><td align="center"><a href="https://github.com/mathocihara"><img src="https://avatars.githubusercontent.com/u/100290301?v=4" width="100px;" alt=""/><br /><sub><b>Matheus</b></sub></a><br /><a href="contribuiçes" title="Documentation">🎨</a></td><td align="center"><a href="https://github.com/eduu25"><img src="https://avatars.githubusercontent.com/u/100290358?v=4" width="100px;" alt=""/><br /><sub><b>Eduardo</b></sub></a><br /><a href="contribuiçes" title="Documentation">🚇</a></td>
  </tr>
 </table>
+
