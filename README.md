@@ -41,7 +41,7 @@ VISUALIZAÇÃO DE DADOS</h1>
    <li style="font-size: 20px">Jogos que rodam com no minimo 500mhz de processor?</li>
  <img src="https://cdn.discordapp.com/attachments/980932145054900344/980932204261670993/500_mhz_processor.png" alt="query9"/>
   <li style="font-size: 20px">Jogos +18 ?</li>
- <img src="https://cdn.discordapp.com/attachments/980932145054900344/981349935586893844/Captura_de_Tela_371.png" alt="query10"/>
+ <img src="https://cdn.discordapp.com/attachments/975803287234289715/982008097377755166/weieiieie.png" alt="query10"/>
 </ol>
   
 ## 📑 Entidades/driagram
