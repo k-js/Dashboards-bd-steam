@@ -87,6 +87,7 @@ VISUALIZAÇÃO DE DADOS</h1>
 ## 📝 Metodologias ágeis
 
 - `KANBAN`
+   
   <img src="style/imagens/imgTrello.png" width="900px;" alt="imagem do trello"/>
 
 ## 💻 Site desenvolvido
