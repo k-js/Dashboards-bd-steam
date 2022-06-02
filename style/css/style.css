@@ -14,7 +14,15 @@ body {
 	width: 100%;
 }
 
-h1 img {
+/* PARTE SLIDE */
+#carouselExampleControls{
+    display: flex;
+    width: 100%;
+    height: 800px;
+}
+
+/*  */
+ h1 img { 
     height: 65px;
     margin-top: 10px;
 	margin-left: 200px;
@@ -56,18 +64,9 @@ h1 img {
        
     }
 }
-
-.carousel-inner{
-    width: 500px;
-    height: 500px; 
-  }
-
-  .cd-block w-100{
-    width: 500px;
-    height: 500px; 
-  }
   
 footer {
+    display: flex;
 	text-align: center;
 	background: #1b2838;
 	padding: 20px 0;
@@ -160,88 +159,89 @@ footer {
 }
 
 /* PARTE - CONTATOS */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 #nome{
     color: #000;
+    font-family: 'Spline Sans Mono', monospace;
 }
-
 #cargo{
     color:#000;
+    font-family: 'Motive Sans', sans-serif;
 }
-
 #equipe{
-    display: flex;
     width: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: #3D4450;
-    height: 500px;
 }
-
-.informaçõesDosDesenvolvedores{
+#informaçõesDosDesenvolvedores{
     display: flex;
     width: 100%;
     flex-direction: column;
 }
-
 .tituloContatos{
     display: flex;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
     justify-content: center;
     color: #000;
-    font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Passion One', cursive;
 }
 
 #blocosDeContato{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 40px;
+    margin: 20px;
+    overflow: visible;
 }
-
 #usuarios{
     display: flex;
     flex-direction:column; 
+    align-items: center;
+    font-size: medium;
+}
+#paragrafo{
+    display: flex;
     text-align: center;
+    flex-direction: column;
 }
 
-#paragrafo{
-    justify-content: centers;
-    font-size: 20px;
-}
 
 #imagemContato{
     display: flex;
-    border-radius: 70%;
+    border-radius: 50%;
     box-shadow: 5px 0px 10px #000;
-    width: 160px;
-    margin-left: 40px;
-    height: 170px;
-    margin-right: 40px;
-    margin-bottom: 50px;
+    max-width:150px;
+    min-width: 150px;
+    max-height:150px;
+    min-height: 150px;
+    width: auto;
+    height: auto;
 }
-
 #links{
     display: flex;
     width: 100%;
     flex-direction: row;
-    margin-left: 40px;
-    margin-right: 30px;
+    justify-content: center;
+
 }
 
 ion-icon{
     display: flex;
-    height: 50px;
+    font-size: 50px;
     color: #000;
 }
 
-#carousel {
-    background-color: #23262e
+.bi{
+    font-size: 50px;
+    align-items: center;
+    color: #000;
 }
 
-.bar{
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
+
+
