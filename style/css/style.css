@@ -196,7 +196,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 20px;
+    margin: 50px;
     overflow: visible;
 }
 #usuarios{
@@ -209,6 +209,7 @@ footer {
     display: flex;
     text-align: center;
     flex-direction: column;
+    margin: 10px;
 }
 
 
@@ -235,6 +236,7 @@ ion-icon{
     display: flex;
     font-size: 50px;
     color: #000;
+    margin-top: 20px;
 }
 
 .bi{
