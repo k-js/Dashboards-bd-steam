@@ -57,16 +57,7 @@ body {
     box-sizing: inherit;
     background: #1b2838;
   }
-  .content {
-    display: flex;
-    justify-content: space-between;
-    gap: 8rem;
-    width: 65%;
-    border-radius: 20px;
-    overflow: hidden;
-  
-    box-sizing: inherit;
-  }
+
   .grafico {
     margin: 0 3em;
   }

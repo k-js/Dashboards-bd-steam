@@ -77,46 +77,55 @@ footer {
 
 
 /* abaixo, as regras de css para os cards */
-#card-pesquisa {
-	background: #2a475e;
-	width: 100%;
-	height: fit-content;
-}
+
 
 .container {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
     flex-wrap: wrap;
     z-index: 1;
-    margin-left: 90px;
+    width: 100%;
 }
 
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 65%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-sizing: inherit;
+  }
 .container .card {
     position: relative;
-    width: 170px;
-    height: 230px;
-    margin:  30px;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     background: rgba(250, 255, 255, 0.1);
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px),
+    backdrop-filter: blur(5px);
 }
 
 .container .card .content {
-    padding: 20px;
+    padding: 5px;
     text-align: center;
     transform: translateY(100px);
     opacity: 0;
     transition: 0.5s;
+    display: flex;
+    font-size: large;
+    flex-direction: column;
+    margin: auto;
+    height: min-content;
 }
 
 .container .card:hover .content {
@@ -126,21 +135,20 @@ footer {
 
 .container .card .content h2 {
     position: absolute;
-    top: -80px;
     right: 30px;
     font-size: 8em;
-    color: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.5);
     pointer-events: none;
 }
 
 .container .card .content h3 {
-    font-size: 1.8em;
+    font-size: 1.5em;
     color: #fff;
     z-index: 1;
 }
 
 .container .card .content p {
-    font-size: 1em;
+    font-size: 1.5em;
     color: #fff;
     font-weight: 300;
 }
@@ -156,6 +164,14 @@ footer {
     border-radius: 20px;
     font-weight: 500;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container .card .card-btn {
+    width: fit-content;
+    padding: 5%;
+    border-radius: 15px;
+    background-color: #1b2838;
+    color: #fff;
 }
 
 /* PARTE - CONTATOS */
@@ -247,3 +263,41 @@ ion-icon{
 
 
 
+/* estilo do popup */
+.modal-custom {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-custom-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
