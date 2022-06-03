@@ -283,15 +283,14 @@ ion-icon{
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+    width: fit-content;
   }
   
   /* The Close Button */
   .close {
     color: #aaaaaa;
     float: right;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: bold;
   }
   
