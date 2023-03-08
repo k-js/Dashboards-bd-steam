@@ -90,9 +90,6 @@ VISUALIZAÇÃO DE DADOS</h1>
    
   <img src="style/imagens/imgTrello.png" width="900px;" alt="imagem do trello"/>
 
-## 💻 Site desenvolvido
-
-<h5>https://k-js.github.io/Resilia-Projeto-Final-de-Modulo-03/<h5>
 
 ## ✨ Contribuidores
 
